@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container-main {
+    width: 350px;
+    height: 500px;
+    background-color: hsl(225, 100%, 98%);
+    /* border: 3px solid red; */
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px 10px 0 0;
+    width: 350px;
+    height: 150px;
+}
+
+.summery {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif 'Red Hat Display', sans-serif;
+}
+
+.summery h2{
+    font-family: 18px;
+    color:hsl(223, 47%, 23%);
+    margin:5px;
+    font-weight: 900;
+}
+.summery p{
+    font-size: 15px;
+    color:hsl(224, 23%, 55%);
+    /* font-weight: 500; */
+}
+.element{
+    margin:10px 15px;
+    padding: 15px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color:hsl(224, 23%, 55%); */
+    /* border:2px solid red; */
+}
+
+.element  img{
+    width:50px;
+    height: 50px;
+}
+
+
+.element .info h3{
+    color:hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight:700;
+    letter-spacing: -1px;
+    margin-left:-25px;
+}
+
+.element .info p{
+    color:hsl(224, 23%, 55%); 
+    margin-left:-25px;
+}
+.element .info a{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.element .info a:hover{
+    cursor:pointer;
+    color:  hsl(246, 83%, 72%);
+}
+.proceed {
+    margin:15px 10px;
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.proceed button{
+    /* margin:15px; */
+    padding:10px;
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border:0px solid white;
+}
+.proceed button:hover{
+    cursor:pointer;
+    background-color:  hsl(246, 83%, 72%);
+}
+.proceed p{
+    margin:10px;
+    padding:10px;
+    /* border:2px solid red; */
+    font-size: 15px;
+    color:hsl(224, 23%, 55%);
+}
+.proceed p:hover{
+    cursor:pointer;
+    color:  hsl(246, 83%, 72%);
+}
+
+@media screen and (max-width:375px) and (orientation: landscape) {
+    /* CSS rules to apply for viewport width of 375px or less and landscape orientation */
+
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+}
+
