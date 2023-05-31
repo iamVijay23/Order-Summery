@@ -37,5 +37,5 @@ es that helped you during the challenge. These could come in handy for anyone vi
 ## Author
 
 - Website - [Vijaysingh Maurya](https://order-summery-98e44.web.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/iamVijay23
 
