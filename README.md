@@ -32,9 +32,6 @@ The Order Summary Component is a HTML and CSS challenge that involves designing 
 ### What I learned
 
 Acquiring proficiency in flexbox, grid layouts, media screen implementation, and card design demonstrates a command of essential front-end skills. Seamlessly create visually appealing and responsive order summary cards that elevate user experiences.
-es that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
 
 - Website - [Vijaysingh Maurya](https://order-summery-98e44.web.app/)
 - Frontend Mentor - https://www.frontendmentor.io/profile/iamVijay23
